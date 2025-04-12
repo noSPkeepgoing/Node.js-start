@@ -1,0 +1,24 @@
+{
+  "posts": [
+    {
+      "id": "ba6c",
+      "title": "new post!",
+      "author": "Choi"
+    }
+  ],
+  "comments": [
+    {
+      "id": "1",
+      "body": "hello!",
+      "postId": 1
+    },
+    {
+      "id": "2",
+      "body": "world!",
+      "postId": 2
+    }
+  ],
+  "profile": {
+    "name": "sunpa"
+  }
+}
