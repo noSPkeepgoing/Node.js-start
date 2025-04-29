@@ -5,7 +5,9 @@
   "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "server": "json-server --watch json-server/db.json"
+    "server": "json-server --watch json-server/db.json",
+    "dev": "nodemon app.js",
+    "dev:route": "nodemon routing.js"
   },
   "repository": {
     "type": "git",
@@ -20,7 +22,8 @@
   "homepage": "https://github.com/noSPkeepgoing/Node.js-start#readme",
   "description": "",
   "devDependencies": {
-    "json-server": "^1.0.0-beta.3"
+    "json-server": "^1.0.0-beta.3",
+    "nodemon": "^3.1.10"
   },
   "dependencies": {
     "express": "^5.1.0"
